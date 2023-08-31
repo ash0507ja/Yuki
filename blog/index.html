@@ -2,7 +2,7 @@
 <>
 <head>
     <meta charset='utf-8'>
-    <title>英単語レベル</title>
+    <title>機械学習室</title>
     <script>function getlevel(){
         if(document.getElementById('word').value == "yuki"){document.cookie = "yuki=True; path=/;";}else{
         let req = new XMLHttpRequest();
@@ -11,9 +11,9 @@
         req.send();}
     }</script>
 </head>
-    英単語のレベルを出します。<br>
-    その単語が文脈から判断するべき単語か、覚えておくべき単語かの参考にしてください。<br>
-    <input id="word" type="text"></input><input type="button" onClick="getlevel()">確認</input>
+    機械学習のことについてこれから色々記述していきたいと思います。<br>
+    一部個人的な内容が含まれるため、閲覧認証コードを記入してください。<br>
+    <input id="word" type="text"></input><input type="button" onClick="getlevel()">認証</input>
     <div id="info">
 </body>
 </html>
